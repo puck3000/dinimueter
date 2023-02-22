@@ -1,91 +1,43 @@
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from './page.module.css'
+import diniMueter from '../../public/DiniMueter_EKdMxHASSIGxHELLASTUDIO_DIN_A1_2023_web.webp'
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
+    <main>
+      <Image
+        className='image'
+        src={diniMueter}
+        alt={'Dini Mueter isch hässig Poster'}
+      />
+      <h1>
+        Poster
+        <br />
+        DINI MUETER ISCH HÄSSIG 2023
+      </h1>
+
+      <article>
         <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
+          Leuchtender 6-Farben-Druck, Ökologische HP-Latex-Print-Technologie mit
+          wasserbasierender Tinte (aber dennoch wetterbeständig), ohne
+          Lösungsmittel, lichtecht, geruchsneutrale Ausdrucke ohne
+          Luftschadstoffe und zu 100% rezyklierbar.
         </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+        <p>
+          A1 (59,4x84,1cm)
+          <br />
+          Artwork by Hella Studio
+        </p>
+        <p>Please allow 1-2 weeks for shipping.</p>
+      </article>
+      <button>BUY</button>
+      <aside>
+        <p className='noMB'>no credid card? no problem:</p>
+        <a href='mailto:hi@lookmom.ch'>hi@lookmom.ch</a>
+      </aside>
     </main>
   )
 }
