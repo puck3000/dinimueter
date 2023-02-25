@@ -36,6 +36,7 @@ export default function Home() {
       <a
         href='https://buy.stripe.com/test_3cs9DHdRY6u1fOU3cc'
         target='_blank'
+        rel='noreferrer'
         className='button'
       >
         BUY
