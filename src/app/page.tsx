@@ -33,7 +33,13 @@ export default function Home() {
         </p>
         <p>Please allow 1-2 weeks for shipping.</p>
       </article>
-      <button>BUY</button>
+      <a
+        href='https://buy.stripe.com/test_3cs9DHdRY6u1fOU3cc'
+        target='_blank'
+        className='button'
+      >
+        BUY
+      </a>
       <aside>
         <p className='noMB'>no credid card? no problem:</p>
         <a href='mailto:hi@lookmom.ch'>hi@lookmom.ch</a>

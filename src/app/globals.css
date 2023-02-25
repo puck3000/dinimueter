@@ -27,7 +27,7 @@ h1,
 h2,
 p,
 a,
-button {
+.button {
   font-size: 1rem;
   font-weight: bold;
   margin: 0 0.5rem 2rem 0.5rem;
@@ -51,15 +51,14 @@ main {
   margin-bottom: 2rem;
 }
 
-button {
+.button {
   background-color: #561d61;
-  border: #561d61;
-  color: white;
-  padding: 1rem 2rem;
-  text-align: left;
-  font-weight: bold;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
   margin: 0 0.5rem 2rem 0.5rem;
-  cursor: pointer;
 }
 
 aside > * {
@@ -90,13 +89,17 @@ aside > * {
   }
   .image {
     grid-row: 1 / 4;
+    margin-bottom: 0;
   }
-  button {
+  .button {
     grid-area: 3 / 2 / 4 / 3;
+  }
+  aside {
+    margin-top: 2rem;
   }
 
   p,
-  button {
+  .button {
     max-width: 33rem;
   }
 }
