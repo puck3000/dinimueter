@@ -34,7 +34,7 @@ export default function Home() {
         <p>Please allow 1-2 weeks for shipping.</p>
       </article>
       <a
-        href='https://buy.stripe.com/test_3cs9DHdRY6u1fOU3cc'
+        href='https://buy.stripe.com/9AQ4iE0Ja4zo2XK6op'
         target='_blank'
         rel='noreferrer'
         className='button'
