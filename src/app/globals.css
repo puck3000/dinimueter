@@ -59,6 +59,11 @@ main {
   align-items: center;
   padding-left: 1rem;
   margin: 0 0.5rem 2rem 0.5rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: blue;
 }
 
 aside > * {
