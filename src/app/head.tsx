@@ -8,6 +8,10 @@ export default function Head() {
         content='Official online shop for DiniMueterIschHässig-Merch'
       />
       <link rel='icon' href='/favicon.ico' />
+      <meta
+        name='facebook-domain-verification'
+        content='rulm1s7c7dqnil5c4d8otz4zmwid5v'
+      />
     </>
   )
 }
